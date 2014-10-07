@@ -3,3 +3,70 @@ your CSS rules and font imports should go here
 delete this comment, add the import directives for your fonts
 and add the CSS rules as described in the challenge
 */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+main {
+	margin-left: 30%;
+}
+
+header, section, footer {
+	padding: 1em;
+}
+
+header {
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+header a:link,
+header a:visited {
+	color: #F4D64A;
+	text-decoration: none;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+header a:hover,
+header a:focus {
+	background-color: #EE0000;
+}
+
+
+#about, #projects{
+	background-color: #F3BC4F;
+}
+
+#education, #contact {
+	background-color: #A85E07;
+}
+
+footer {
+	background-color: #3E2005;
+	color: #FFFFFF;
+}
+
+img:hover {
+	opacity:0.7;
+}
+#about img {
+	max-height: 400px;
+	float: left;
+	margin-right: 1em;
+}
+
+#education {
+	clear: both;
+}
+
+#about {
+	overflow: auto;
+}
